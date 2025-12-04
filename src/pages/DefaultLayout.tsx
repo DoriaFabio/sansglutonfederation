@@ -8,5 +8,5 @@ export default function DefaultLayout() {
             <Outlet />
         </div>
     )
-    
+
 }
