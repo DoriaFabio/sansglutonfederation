@@ -89,5 +89,10 @@ export const teams: Team[] = [
         logo: "/Stemma/Udinegre.png",
         teamName: "Udinegre",
         ownerName: "Tola Petrioli"
+    },
+    {
+        logo: "/Stemma/Trump.png",
+        teamName: "Trumpzonspor",
+        ownerName: "David Fiorentini"
     }
 ];
