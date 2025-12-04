@@ -5,7 +5,7 @@ function Header() {
         <img
           src="../logoLega.png"
           alt="Logo Fantacalcio"
-          className="w-[50px] md:w-30 h-auto transition-transform hover:scale-105"
+          className="w-[50px] md:w-20 h-auto transition-transform hover:scale-105"
         />
       </button>
     </header>

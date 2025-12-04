@@ -1,6 +1,13 @@
+import { useNavigate } from 'react-router-dom'
 import { teams } from '../data/teams'
 
 function ListTeam() {
+  const navigate = useNavigate();
+
+  const handleTeamClick = (index: number) => {
+    navigate(`/team/${index}`);
+  };
+
   return (
     <div className="py-5 px-4">
         <h1 className="text-center text-3xl font-bold text-amber-100 mb-8">Lista squadre</h1>
@@ -9,7 +16,8 @@ function ListTeam() {
             {teams.map((team, index) => (
                 <div
                     key={index}
-                    className="flex flex-col items-center bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:bg-white/20 transition-all duration-300 hover:scale-105"
+                    onClick={() => handleTeamClick(index)}
+                    className="flex flex-col items-center bg-white/10 backdrop-blur-sm rounded-lg p-4 hover:bg-white/20 transition-all duration-300 hover:scale-105 cursor-pointer"
                 >
                     <div className="w-24 h-24 mb-3 flex items-center justify-center">
                         <img
