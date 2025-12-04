@@ -8,86 +8,86 @@ export const teams: Team[] = [
     {
         logo: "/Stemma/Alfa romeo.png",
         teamName: "Alfa Romeo",
-        ownerName: "Proprietario 1"
+        ownerName: "Giulia Doria"
     },
     {
         logo: "/Stemma/Barchillona.png",
         teamName: "Barchillona",
-        ownerName: "Proprietario 2"
+        ownerName: "Giuseppe Capocotta"
     },
     {
         logo: "/Stemma/Bronx_of_Florence.png",
-        teamName: "Bronx of Florence",
-        ownerName: "Proprietario 3"
+        teamName: "Bronx of Soccer",
+        ownerName: "Francesco De Nicola"
     },
     {
         logo: "/Stemma/Brunori_Sassuolo.png",
         teamName: "Brunori Sassuolo",
-        ownerName: "Proprietario 4"
+        ownerName: "Leonardo Miresse"
     },
     {
         logo: "/Stemma/cacio-pepe.png",
         teamName: "Cacio e Pepe",
-        ownerName: "Proprietario 5"
+        ownerName: "Tommaso Marcucci"
     },
     {
         logo: "/Stemma/Chiattilos.png",
         teamName: "Chiattilos",
-        ownerName: "Proprietario 6"
+        ownerName: "Fabio Doria"
     },
     {
         logo: "/Stemma/De_paul_fiction.png",
         teamName: "De Paul Fiction",
-        ownerName: "Proprietario 7"
+        ownerName: "Riccardo Pecorini"
     },
     {
         logo: "/Stemma/Duccio.png",
-        teamName: "Duccio",
-        ownerName: "Proprietario 8"
+        teamName: "Club D. Regatas Mugiwara",
+        ownerName: "Duccio Gabbiai"
     },
     {
         logo: "/Stemma/Florentia.png",
         teamName: "Florentia Viola",
-        ownerName: "Proprietario 9"
+        ownerName: "Leonardo Lombardi"
     },
     {
         logo: "/Stemma/GodoGlimt.png",
         teamName: "Godo Glimt",
-        ownerName: "Proprietario 10"
+        ownerName: "Matteo Speciale"
     },
     {
         logo: "/Stemma/Krusty_Krab.png",
         teamName: "Krusty Krab Klub",
-        ownerName: "Proprietario 11"
+        ownerName: "Lorenzo Tucci"
     },
     {
         logo: "/Stemma/Lecrerkusen.png",
         teamName: "Lecrerkusen",
-        ownerName: "Proprietario 12"
+        ownerName: "Simone Bassi"
     },
     {
         logo: "/Stemma/One pisa.png",
         teamName: "One Pisa",
-        ownerName: "Proprietario 13"
+        ownerName: "Fidelio Schwenn"
     },
     {
         logo: "/Stemma/ossobuco.png",
         teamName: "Ossobuco FC",
-        ownerName: "Proprietario 14"
+        ownerName: "Samuele Romoli"
     },
     {
-        logo: "/Stemma/Sambuca.png",
+        logo: "/Stemma/sambuca.png",
         teamName: "Sambuca Juniors",
-        ownerName: "Proprietario 15"
+        ownerName: "Jacopo Vannucchi"
     },
     {
         logo: "/Stemma/Toronto.png",
         teamName: "Toronto Staraptor",
-        ownerName: "Proprietario 16"
+        ownerName: "Lorenzo Monaci"
     },
     {
         logo: "/Stemma/Udinegre.png",
         teamName: "Udinegre",
-        ownerName: "Proprietario 17"
+        ownerName: "Tola Petrioli"
     }
 ];
