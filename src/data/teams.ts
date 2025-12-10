@@ -9,7 +9,7 @@ export const teams: Team[] = [
     {
         id: "alfa-romeo",
         logo: "/Stemma/Alfa romeo.png",
-        teamName: "Alfa Romeo",
+        teamName: "Alfa Romeo Giulia",
         ownerName: "Giulia Doria",
     },
     {
@@ -87,7 +87,7 @@ export const teams: Team[] = [
     {
         id: "ossobuco-fc",
         logo: "/Stemma/ossobuco.png",
-        teamName: "Ossobuco FC",
+        teamName: "Ossobuco FCecche",
         ownerName: "Samuele Romoli"
     },
     {

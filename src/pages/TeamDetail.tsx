@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import { teams } from '../data/teams';
 import {
     Sambuca,
@@ -28,6 +29,11 @@ function TeamDetail() {
     const navigate = useNavigate();
 
     const team = teams[Number(teamIndex)];
+
+    // Scroll to top quando il componente viene montato
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     if (!team) {
         return <div className="text-white text-center py-10">Squadra non trovata</div>;
