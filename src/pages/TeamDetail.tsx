@@ -33,10 +33,8 @@ function TeamDetail() {
                     <div key={index} className="bg-white/10 backdrop-blur-sm rounded-lg p-4">
                         <h3 className="text-lg font-semibold text-white">{giocatore.calciatore}</h3>
                         <p className="text-amber-100 text-sm">{giocatore.squadra}</p>
-                        <div className="mt-2 flex gap-4 text-xs text-white/80">
-                            <span>FVMP: {giocatore.fvmp}</span>
+                        <div className="mt-2 text-xs text-white/80">
                             <span>Q.Acq: {giocatore.qAcq}</span>
-                            <span>Q.Att: {giocatore.qAtt}</span>
                         </div>
                     </div>
                 ))}
