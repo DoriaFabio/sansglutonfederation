@@ -13,7 +13,7 @@ export const teams: Team[] = [
         ownerName: "Giulia Doria",
     },
     {
-        id: "barchillona",
+        id: "Barchillona",
         logo: "/Stemma/Barchillona.png",
         teamName: "Barchillona",
         ownerName: "Giuseppe Capocotta"
@@ -73,9 +73,9 @@ export const teams: Team[] = [
         ownerName: "Lorenzo Tucci"
     },
     {
-        id: "Lecrerkusen",
+        id: "Leclerkusen",
         logo: "/Stemma/Lecrerkusen.png",
-        teamName: "Lecrerkusen",
+        teamName: "Leclerkusen",
         ownerName: "Simone Bassi"
     },
     {
@@ -109,7 +109,7 @@ export const teams: Team[] = [
         ownerName: "Tola Petrioli"
     },
     {
-        id: "trumpzonspor",
+        id: "Trumpzonspor",
         logo: "/Stemma/Trump.png",
         teamName: "Trumpzonspor",
         ownerName: "David Fiorentini"

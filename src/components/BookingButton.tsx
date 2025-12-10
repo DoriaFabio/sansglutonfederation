@@ -16,7 +16,7 @@ function BookingButton({ onClick }: BookingButtonProps) {
                 transition-all duration-300 ease-out
                 transform hover:scale-110 active:scale-95
                 text-sm md:text-lg
-                overflow-hidden
+                overflow-hidden cursor-pointer
             "
         >
             {/* glow interno */}
