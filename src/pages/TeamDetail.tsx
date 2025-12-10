@@ -1,6 +1,26 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { teams } from '../data/teams';
-import { Sambuca, Krusty_krak, chiattilos, Calciatore } from '../data/calciatori';
+import {
+    Sambuca,
+    Krusty_krak,
+    chiattilos,
+    mugiwara,
+    barchillona,
+    brunoriSassuolo,
+    trumpzonspor,
+    torontoStaraptor,
+    florentiaViola,
+    onePisa,
+    godoGlimt,
+    ossobucoFCecche,
+    bronxOfSoccer,
+    leclerkusen,
+    udinegre,
+    cacioEPepeFC,
+    dePaulFiction,
+    alfaRomeoGiulia,
+    Calciatore
+} from '../data/calciatori';
 
 
 function TeamDetail() {
@@ -14,7 +34,26 @@ function TeamDetail() {
     }
 
     // Combina tutti i giocatori
-    const tuttiGiocatori: Calciatore[] = [...Sambuca, ...Krusty_krak, ...chiattilos];
+    const tuttiGiocatori: Calciatore[] = [
+        ...Sambuca,
+        ...Krusty_krak,
+        ...chiattilos,
+        ...mugiwara,
+        ...barchillona,
+        ...brunoriSassuolo,
+        ...trumpzonspor,
+        ...torontoStaraptor,
+        ...florentiaViola,
+        ...onePisa,
+        ...godoGlimt,
+        ...ossobucoFCecche,
+        ...bronxOfSoccer,
+        ...leclerkusen,
+        ...udinegre,
+        ...cacioEPepeFC,
+        ...dePaulFiction,
+        ...alfaRomeoGiulia
+    ];
 
     // Filtra i giocatori per teamId
     const giocatoriSquadra = tuttiGiocatori.filter(player => player.teamId === team.id);

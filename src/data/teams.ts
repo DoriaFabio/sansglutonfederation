@@ -73,7 +73,7 @@ export const teams: Team[] = [
         ownerName: "Lorenzo Tucci"
     },
     {
-        id: "lecrerkusen",
+        id: "Lecrerkusen",
         logo: "/Stemma/Lecrerkusen.png",
         teamName: "Lecrerkusen",
         ownerName: "Simone Bassi"
@@ -103,7 +103,7 @@ export const teams: Team[] = [
         ownerName: "Lorenzo Monaci"
     },
     {
-        id: "udinegre",
+        id: "Udinegre",
         logo: "/Stemma/Udinegre.png",
         teamName: "Udinegre",
         ownerName: "Tola Petrioli"

@@ -8,6 +8,7 @@ export interface Calciatore {
   qAcq: number;
 }
 
+//* Giocatore della squadra Sambuca Juniors
 export const Sambuca: Calciatore[] = [
   { calciatore: "Carnesecchi", ruolo: "P", squadra: "Atalanta", teamId: "sambuca-juniors", qAcq: 21 },
   { calciatore: "Rossi F.", ruolo: "P", squadra: "Atalanta", teamId: "sambuca-juniors", qAcq: 1 },
@@ -35,6 +36,7 @@ export const Sambuca: Calciatore[] = [
   { calciatore: "Sanabria", ruolo: "A", squadra: "Cremonese", teamId: "sambuca-juniors", qAcq: 17 }
 ];
 
+//* Giocatore della squadra Krusty krab Klub
 export const Krusty_krak: Calciatore[] = [
   { calciatore: "Montipò", ruolo: "P", squadra: "Verona", teamId: "krusty-krab-klub", qAcq: 1 },
   { calciatore: "Perilli", ruolo: "P", squadra: "Verona", teamId: "krusty-krab-klub", qAcq: 1 },
@@ -62,6 +64,7 @@ export const Krusty_krak: Calciatore[] = [
   { calciatore: "Pierini", ruolo: "A", squadra: "Sassuolo", teamId: "krusty-krab-klub", qAcq: 1 }
 ];
 
+//* Giocatore della squadra chiattilos */
 export const chiattilos: Calciatore[] = [
   { calciatore: "Israel", ruolo: "P", squadra: "Torino", teamId: "chiattilos", qAcq: 15 },
   { calciatore: "Paleari", ruolo: "P", squadra: "Torino", teamId: "chiattilos", qAcq: 1 },
@@ -87,4 +90,421 @@ export const chiattilos: Calciatore[] = [
   { calciatore: "Lang", ruolo: "A", squadra: "Napoli", teamId: "chiattilos", qAcq: 13 },
   { calciatore: "Rodriguez Je.", ruolo: "A", squadra: "Como", teamId: "chiattilos", qAcq: 17 },
   { calciatore: "Soulè", ruolo: "A", squadra: "Roma", teamId: "chiattilos", qAcq: 66 }
+];
+
+//* Giocatore della squadra club-d-regatas-mugiwara */
+export const mugiwara: Calciatore[] = [
+  { calciatore: "Maignan", ruolo: "P", squadra: "Milan", qAcq: 43, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Terracciano", ruolo: "P", squadra: "Milan", qAcq: 1, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Torriani", ruolo: "P", squadra: "Milan", qAcq: 1, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Darmian", ruolo: "D", squadra: "Inter", qAcq: 6, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Dimarco", ruolo: "D", squadra: "Inter", qAcq: 47, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Dodò", ruolo: "D", squadra: "Fiorentina", qAcq: 26, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Ebosse", ruolo: "D", squadra: "Verona", qAcq: 1, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Estupinan", ruolo: "D", squadra: "Milan", qAcq: 25, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Kolasinac", ruolo: "D", squadra: "Atalanta", qAcq: 1, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Martin", ruolo: "D", squadra: "Genoa", qAcq: 18, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Mateus Lusuardi", ruolo: "D", squadra: "Pisa", qAcq: 1, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Fazzini", ruolo: "C", squadra: "Fiorentina", qAcq: 19, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Isaksen", ruolo: "C", squadra: "Lazio", qAcq: 33, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Miretti", ruolo: "C", squadra: "Juventus", qAcq: 1, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Mkhitaryan", ruolo: "C", squadra: "Inter", qAcq: 22, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Pulisic", ruolo: "C", squadra: "Milan", qAcq: 97, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Stengs", ruolo: "C", squadra: "Pisa", qAcq: 26, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Thorstvedt", ruolo: "C", squadra: "Sassuolo", qAcq: 9, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Zaniolo", ruolo: "C", squadra: "Udinese", qAcq: 16, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "De Luca", ruolo: "A", squadra: "Cremonese", qAcq: 1, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Krstovic", ruolo: "A", squadra: "Atalanta", qAcq: 47, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Openda", ruolo: "A", squadra: "Juventus", qAcq: 36, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Simeone", ruolo: "A", squadra: "Torino", qAcq: 44, teamId: "club-d-regatas-mugiwara" },
+  { calciatore: "Vlahovic", ruolo: "A", squadra: "Juventus", qAcq: 154, teamId: "club-d-regatas-mugiwara" }
+];
+
+//* Giocatore della squadra Barchillona */
+export const barchillona: Calciatore[] = [
+  { calciatore: "Contini", ruolo: "P", squadra: "Napoli", qAcq: 1, teamId: "Barchillona" },
+  { calciatore: "Meret", ruolo: "P", squadra: "Napoli", qAcq: 44, teamId: "Barchillona" },
+  { calciatore: "Milinkovic-Savic V.", ruolo: "P", squadra: "Napoli", qAcq: 1, teamId: "Barchillona" },
+  { calciatore: "Albiol", ruolo: "D", squadra: "Pisa", qAcq: 3, teamId: "Barchillona" },
+  { calciatore: "Baschirotto", ruolo: "D", squadra: "Cremonese", qAcq: 17, teamId: "Barchillona" },
+  { calciatore: "Belghali", ruolo: "D", squadra: "Verona", qAcq: 6, teamId: "Barchillona" },
+  { calciatore: "Gallo", ruolo: "D", squadra: "Lecce", qAcq: 6, teamId: "Barchillona" },
+  { calciatore: "Pezzella Giu.", ruolo: "D", squadra: "Cremonese", qAcq: 17, teamId: "Barchillona" },
+  { calciatore: "Romagnoli", ruolo: "D", squadra: "Lazio", qAcq: 18, teamId: "Barchillona" },
+  { calciatore: "Troilo", ruolo: "D", squadra: "Parma", qAcq: 1, teamId: "Barchillona" },
+  { calciatore: "Vitik", ruolo: "D", squadra: "Bologna", qAcq: 16, teamId: "Barchillona" },
+  { calciatore: "Adzic", ruolo: "C", squadra: "Juventus", qAcq: 5, teamId: "Barchillona" },
+  { calciatore: "Akinsanmiro", ruolo: "C", squadra: "Pisa", qAcq: 1, teamId: "Barchillona" },
+  { calciatore: "Boloca", ruolo: "C", squadra: "Sassuolo", qAcq: 21, teamId: "Barchillona" },
+  { calciatore: "Hernani", ruolo: "C", squadra: "Parma", qAcq: 1, teamId: "Barchillona" },
+  { calciatore: "Koné M.", ruolo: "C", squadra: "Roma", qAcq: 42, teamId: "Barchillona" },
+  { calciatore: "Masini", ruolo: "C", squadra: "Genoa", qAcq: 16, teamId: "Barchillona" },
+  { calciatore: "Zaccagni", ruolo: "C", squadra: "Lazio", qAcq: 107, teamId: "Barchillona" },
+  { calciatore: "Zielinski", ruolo: "C", squadra: "Inter", qAcq: 3, teamId: "Barchillona" },
+  { calciatore: "Bravo", ruolo: "A", squadra: "Udinese", qAcq: 20, teamId: "Barchillona" },
+  { calciatore: "Esposito Se.", ruolo: "A", squadra: "Cagliari", qAcq: 40, teamId: "Barchillona" },
+  { calciatore: "Laurienté", ruolo: "A", squadra: "Sassuolo", qAcq: 45, teamId: "Barchillona" },
+  { calciatore: "Sarr A.", ruolo: "A", squadra: "Verona", qAcq: 10, teamId: "Barchillona" },
+  { calciatore: "Sulemana K.", ruolo: "A", squadra: "Atalanta", qAcq: 4, teamId: "Barchillona" }
+];
+
+//* Giocatore della squadra brunori-sassuolo */
+export const brunoriSassuolo: Calciatore[] = [
+  { calciatore: "Butez", ruolo: "P", squadra: "Como", qAcq: 15, teamId: "brunori-sassuolo" },
+  { calciatore: "Cavlina", ruolo: "P", squadra: "Como", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "Vigorito", ruolo: "P", squadra: "Como", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "Akanji", ruolo: "D", squadra: "Inter", qAcq: 25, teamId: "brunori-sassuolo" },
+  { calciatore: "Bisseck", ruolo: "D", squadra: "Inter", qAcq: 11, teamId: "brunori-sassuolo" },
+  { calciatore: "Bremer", ruolo: "D", squadra: "Juventus", qAcq: 45, teamId: "brunori-sassuolo" },
+  { calciatore: "Comuzzo", ruolo: "D", squadra: "Fiorentina", qAcq: 16, teamId: "brunori-sassuolo" },
+  { calciatore: "Djimisti", ruolo: "D", squadra: "Atalanta", qAcq: 11, teamId: "brunori-sassuolo" },
+  { calciatore: "Ndiaye", ruolo: "D", squadra: "Parma", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "Ramon", ruolo: "D", squadra: "Como", qAcq: 8, teamId: "brunori-sassuolo" },
+  { calciatore: "Zemura", ruolo: "D", squadra: "Udinese", qAcq: 5, teamId: "brunori-sassuolo" },
+  { calciatore: "Bernardeschi", ruolo: "C", squadra: "Bologna", qAcq: 5, teamId: "brunori-sassuolo" },
+  { calciatore: "Cornet", ruolo: "C", squadra: "Genoa", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "De Roon", ruolo: "C", squadra: "Atalanta", qAcq: 26, teamId: "brunori-sassuolo" },
+  { calciatore: "Felici", ruolo: "C", squadra: "Cagliari", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "Modric", ruolo: "C", squadra: "Milan", qAcq: 31, teamId: "brunori-sassuolo" },
+  { calciatore: "Perrone", ruolo: "C", squadra: "Como", qAcq: 5, teamId: "brunori-sassuolo" },
+  { calciatore: "Politano", ruolo: "C", squadra: "Napoli", qAcq: 70, teamId: "brunori-sassuolo" },
+  { calciatore: "Volpato", ruolo: "C", squadra: "Sassuolo", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "Douvikas", ruolo: "C", squadra: "Como", qAcq: 29, teamId: "brunori-sassuolo" },
+  { calciatore: "Ekuban", ruolo: "A", squadra: "Genoa", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "Moreo", ruolo: "A", squadra: "Pisa", qAcq: 1, teamId: "brunori-sassuolo" },
+  { calciatore: "Pedro", ruolo: "A", squadra: "Lazio", qAcq: 12, teamId: "brunori-sassuolo" },
+  { calciatore: "Yildiz", ruolo: "A", squadra: "Juventus", qAcq: 170, teamId: "brunori-sassuolo" }
+];
+
+//* Giocatore della squadra Trumpzonspor */
+export const trumpzonspor: Calciatore[] = [
+  { calciatore: "Nicolas", ruolo: "P", squadra: "Pisa", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Scuffet", ruolo: "P", squadra: "Pisa", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Semper", ruolo: "P", squadra: "Pisa", qAcq: 8, teamId: "Trumpzonspor" },
+  { calciatore: "Bianchetti", ruolo: "D", squadra: "Cremonese", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Canestrelli", ruolo: "D", squadra: "Pisa", qAcq: 4, teamId: "Trumpzonspor" },
+  { calciatore: "De Silvestri", ruolo: "D", squadra: "Bologna", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Delprato", ruolo: "D", squadra: "Parma", qAcq: 18, teamId: "Trumpzonspor" },
+  { calciatore: "Dumfries", ruolo: "D", squadra: "Inter", qAcq: 54, teamId: "Trumpzonspor" },
+  { calciatore: "Ghilardi", ruolo: "D", squadra: "Roma", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Tavares N.", ruolo: "D", squadra: "Lazio", qAcq: 28, teamId: "Trumpzonspor" },
+  { calciatore: "Valenti", ruolo: "D", squadra: "Parma", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Adopo", ruolo: "C", squadra: "Cagliari", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Al-Musrati", ruolo: "C", squadra: "Verona", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Fadera", ruolo: "C", squadra: "Sassuolo", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Frendrup", ruolo: "C", squadra: "Genoa", qAcq: 31, teamId: "Trumpzonspor" },
+  { calciatore: "Ilic", ruolo: "C", squadra: "Torino", qAcq: 1, teamId: "Trumpzonspor" },
+  { calciatore: "Lovric", ruolo: "C", squadra: "Udinese", qAcq: 22, teamId: "Trumpzonspor" },
+  { calciatore: "Paz N.", ruolo: "C", squadra: "Como", qAcq: 95, teamId: "Trumpzonspor" },
+  { calciatore: "Prati", ruolo: "C", squadra: "Cagliari", qAcq: 10, teamId: "Trumpzonspor" },
+  { calciatore: "Bonazzoli", ruolo: "A", squadra: "Cremonese", qAcq: 16, teamId: "Trumpzonspor" },
+  { calciatore: "Castro S.", ruolo: "A", squadra: "Bologna", qAcq: 60, teamId: "Trumpzonspor" },
+  { calciatore: "Davis K.", ruolo: "A", squadra: "Udinese", qAcq: 68, teamId: "Trumpzonspor" },
+  { calciatore: "Diao", ruolo: "A", squadra: "Como", qAcq: 20, teamId: "Trumpzonspor" },
+  { calciatore: "Vardy", ruolo: "A", squadra: "Cremonese", qAcq: 27, teamId: "Trumpzonspor" }
+];
+
+//* Giocatore della squadra toronto-staraptor */
+export const torontoStaraptor: Calciatore[] = [
+  { calciatore: "Leali", ruolo: "P", squadra: "Genoa", qAcq: 18, teamId: "toronto-staraptor" },
+  { calciatore: "Siegrist", ruolo: "P", squadra: "Genoa", qAcq: 1, teamId: "toronto-staraptor" },
+  { calciatore: "Sommariva", ruolo: "P", squadra: "Genoa", qAcq: 1, teamId: "toronto-staraptor" },
+  { calciatore: "Circati", ruolo: "D", squadra: "Roma", qAcq: 7, teamId: "toronto-staraptor" },
+  { calciatore: "Coco", ruolo: "D", squadra: "Torino", qAcq: 12, teamId: "toronto-staraptor" },
+  { calciatore: "Doig", ruolo: "D", squadra: "Sassuolo", qAcq: 6, teamId: "toronto-staraptor" },
+  { calciatore: "Ehizibue", ruolo: "D", squadra: "Udinese", qAcq: 10, teamId: "toronto-staraptor" },
+  { calciatore: "Holm", ruolo: "D", squadra: "Bologna", qAcq: 14, teamId: "toronto-staraptor" },
+  { calciatore: "Idzes", ruolo: "D", squadra: "Sassuolo", qAcq: 1, teamId: "toronto-staraptor" },
+  { calciatore: "Tsimikas", ruolo: "D", squadra: "Roma", qAcq: 1, teamId: "toronto-staraptor" },
+  { calciatore: "Vojvoda", ruolo: "D", squadra: "Como", qAcq: 16, teamId: "toronto-staraptor" },
+  { calciatore: "Atta", ruolo: "C", squadra: "Udinese", qAcq: 26, teamId: "toronto-staraptor" },
+  { calciatore: "Collocolo", ruolo: "C", squadra: "Cremonese", qAcq: 10, teamId: "toronto-staraptor" },
+  { calciatore: "Gineitis", ruolo: "C", squadra: "Torino", qAcq: 1, teamId: "toronto-staraptor" },
+  { calciatore: "Pellegrini Lo.", ruolo: "C", squadra: "Roma", qAcq: 3, teamId: "toronto-staraptor" },
+  { calciatore: "Rabiot", ruolo: "C", squadra: "Milan", qAcq: 71, teamId: "toronto-staraptor" },
+  { calciatore: "Sohm", ruolo: "C", squadra: "Fiorentina", qAcq: 28, teamId: "toronto-staraptor" },
+  { calciatore: "Tete Morente", ruolo: "C", squadra: "Lecce", qAcq: 23, teamId: "toronto-staraptor" },
+  { calciatore: "Zambo Anguissa", ruolo: "C", squadra: "Napoli", qAcq: 43, teamId: "toronto-staraptor" },
+  { calciatore: "Aboukhlal", ruolo: "A", squadra: "Genoa", qAcq: 1, teamId: "toronto-staraptor" },
+  { calciatore: "Belotti", ruolo: "A", squadra: "Cagliari", qAcq: 32, teamId: "toronto-staraptor" },
+  { calciatore: "De Ketelaere", ruolo: "A", squadra: "Atalanta", qAcq: 54, teamId: "toronto-staraptor" },
+  { calciatore: "Pellegrino M.", ruolo: "A", squadra: "Roma", qAcq: 35, teamId: "toronto-staraptor" },
+  { calciatore: "Pinamonti", ruolo: "A", squadra: "Sassuolo", qAcq: 56, teamId: "toronto-staraptor" }
+];
+
+//* Giocatore della squadra florentia-viola */
+export const florentiaViola: Calciatore[] = [
+  { calciatore: "Corvi", ruolo: "P", squadra: "Roma", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Guaita", ruolo: "P", squadra: "Roma", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Suzuki", ruolo: "P", squadra: "Roma", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Gila", ruolo: "D", squadra: "Lazio", qAcq: 22, teamId: "florentia-viola" },
+  { calciatore: "Hien", ruolo: "D", squadra: "Atalanta", qAcq: 20, teamId: "florentia-viola" },
+  { calciatore: "Mari", ruolo: "D", squadra: "Fiorentina", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Parisi", ruolo: "D", squadra: "Fiorentina", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Ranieri L.", ruolo: "D", squadra: "Fiorentina", qAcq: 20, teamId: "florentia-viola" },
+  { calciatore: "Tiago Gabriel", ruolo: "D", squadra: "Pisa", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Tomori", ruolo: "D", squadra: "Milan", qAcq: 28, teamId: "florentia-viola" },
+  { calciatore: "Unai Nunez", ruolo: "D", squadra: "Verona", qAcq: 5, teamId: "florentia-viola" },
+  { calciatore: "Caqueret", ruolo: "C", squadra: "Como", qAcq: 11, teamId: "florentia-viola" },
+  { calciatore: "Cataldi", ruolo: "C", squadra: "Lazio", qAcq: 15, teamId: "florentia-viola" },
+  { calciatore: "Ellertsson", ruolo: "C", squadra: "Genoa", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Koopmeiners", ruolo: "C", squadra: "Juventus", qAcq: 20, teamId: "florentia-viola" },
+  { calciatore: "Lobotka", ruolo: "C", squadra: "Napoli", qAcq: 42, teamId: "florentia-viola" },
+  { calciatore: "Loftus-Cheek", ruolo: "C", squadra: "Milan", qAcq: 30, teamId: "florentia-viola" },
+  { calciatore: "Ndour", ruolo: "C", squadra: "Fiorentina", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Piotrowski", ruolo: "C", squadra: "Udinese", qAcq: 1, teamId: "florentia-viola" },
+  { calciatore: "Adams C.", ruolo: "A", squadra: "Torino", qAcq: 32, teamId: "florentia-viola" },
+  { calciatore: "Hojlund", ruolo: "A", squadra: "Napoli", qAcq: 191, teamId: "florentia-viola" },
+  { calciatore: "Lucca", ruolo: "A", squadra: "Napoli", qAcq: 35, teamId: "florentia-viola" },
+  { calciatore: "Lukaku", ruolo: "A", squadra: "Napoli", qAcq: 30, teamId: "florentia-viola" },
+  { calciatore: "Piccoli", ruolo: "A", squadra: "Fiorentina", qAcq: 10, teamId: "florentia-viola" }
+];
+
+//* Giocatore della squadra one-pisa */
+export const onePisa: Calciatore[] = [
+  { calciatore: "Di Gregorio", ruolo: "P", squadra: "Juventus", qAcq: 54, teamId: "one-pisa" },
+  { calciatore: "Perin", ruolo: "P", squadra: "Juventus", qAcq: 1, teamId: "one-pisa" },
+  { calciatore: "Pinsoglio", ruolo: "P", squadra: "Juventus", qAcq: 1, teamId: "one-pisa" },
+  { calciatore: "Cuadrado", ruolo: "D", squadra: "Pisa", qAcq: 6, teamId: "one-pisa" },
+  { calciatore: "De Vrij", ruolo: "D", squadra: "Inter", qAcq: 7, teamId: "one-pisa" },
+  { calciatore: "Goldaniga", ruolo: "D", squadra: "Como", qAcq: 1, teamId: "one-pisa" },
+  { calciatore: "Lazzaro", ruolo: "D", squadra: "Torino", qAcq: 11, teamId: "one-pisa" },
+  { calciatore: "Lazzari", ruolo: "D", squadra: "Lazio", qAcq: 1, teamId: "one-pisa" },
+  { calciatore: "Solet", ruolo: "D", squadra: "Udinese", qAcq: 27, teamId: "one-pisa" },
+  { calciatore: "Zanoli", ruolo: "D", squadra: "Udinese", qAcq: 5, teamId: "one-pisa" },
+  { calciatore: "Zappacosta", ruolo: "D", squadra: "Atalanta", qAcq: 6, teamId: "one-pisa" },
+  { calciatore: "El Aynaoui", ruolo: "C", squadra: "Roma", qAcq: 20, teamId: "one-pisa" },
+  { calciatore: "El Shaarawy", ruolo: "C", squadra: "Roma", qAcq: 22, teamId: "one-pisa" },
+  { calciatore: "Jashari", ruolo: "C", squadra: "Milan", qAcq: 10, teamId: "one-pisa" },
+  { calciatore: "Nicolussi Caviglia", ruolo: "C", squadra: "Fiorentina", qAcq: 16, teamId: "one-pisa" },
+  { calciatore: "Pierotti", ruolo: "C", squadra: "Lecce", qAcq: 1, teamId: "one-pisa" },
+  { calciatore: "Rovella", ruolo: "C", squadra: "Napoli", qAcq: 30, teamId: "one-pisa" },
+  { calciatore: "Saelemaekers", ruolo: "C", squadra: "Milan", qAcq: 47, teamId: "one-pisa" },
+  { calciatore: "Vasquez", ruolo: "C", squadra: "Cremonese", qAcq: 7, teamId: "one-pisa" },
+  { calciatore: "Colombo", ruolo: "A", squadra: "Genoa", qAcq: 20, teamId: "one-pisa" },
+  { calciatore: "Gimenez", ruolo: "A", squadra: "Milan", qAcq: 36, teamId: "one-pisa" },
+  { calciatore: "Leao", ruolo: "A", squadra: "Milan", qAcq: 102, teamId: "one-pisa" },
+  { calciatore: "Lookman", ruolo: "A", squadra: "Atalanta", qAcq: 56, teamId: "one-pisa" },
+  { calciatore: "Nkunku", ruolo: "A", squadra: "Milan", qAcq: 56, teamId: "one-pisa" }
+];
+
+export const godoGlimt: Calciatore[] = [
+  { calciatore: "Okoye", ruolo: "P", squadra: "Udinese", qAcq: 20, teamId: "godo-glimt" },
+  { calciatore: "Padelli", ruolo: "P", squadra: "Udinese", qAcq: 1, teamId: "godo-glimt" },
+  { calciatore: "Sava", ruolo: "P", squadra: "Udinese", qAcq: 1, teamId: "godo-glimt" },
+  { calciatore: "Biraghi", ruolo: "D", squadra: "Torino", qAcq: 15, teamId: "godo-glimt" },
+  { calciatore: "Bradaric", ruolo: "D", squadra: "Verona", qAcq: 12, teamId: "godo-glimt" },
+  { calciatore: "Heggem", ruolo: "D", squadra: "Bologna", qAcq: 5, teamId: "godo-glimt" },
+  { calciatore: "Kossounou", ruolo: "D", squadra: "Atalanta", qAcq: 12, teamId: "godo-glimt" },
+  { calciatore: "Kristensen T.", ruolo: "D", squadra: "Udinese", qAcq: 16, teamId: "godo-glimt" },
+  { calciatore: "Lovik", ruolo: "D", squadra: "Parma", qAcq: 1, teamId: "godo-glimt" },
+  { calciatore: "Palestra", ruolo: "D", squadra: "Cagliari", qAcq: 11, teamId: "godo-glimt" },
+  { calciatore: "Terracciano F.", ruolo: "D", squadra: "Cremonese", qAcq: 5, teamId: "godo-glimt" },
+  { calciatore: "Bailey", ruolo: "C", squadra: "Roma", qAcq: 30, teamId: "godo-glimt" },
+  { calciatore: "Casadei", ruolo: "C", squadra: "Torino", qAcq: 45, teamId: "godo-glimt" },
+  { calciatore: "Da Cunha", ruolo: "C", squadra: "Como", qAcq: 40, teamId: "godo-glimt" },
+  { calciatore: "Fabbian", ruolo: "C", squadra: "Bologna", qAcq: 32, teamId: "godo-glimt" },
+  { calciatore: "Folorunsho", ruolo: "C", squadra: "Cagliari", qAcq: 30, teamId: "godo-glimt" },
+  { calciatore: "Pasalic", ruolo: "C", squadra: "Atalanta", qAcq: 35, teamId: "godo-glimt" },
+  { calciatore: "Vandeputte", ruolo: "C", squadra: "Cremonese", qAcq: 21, teamId: "godo-glimt" },
+  { calciatore: "Zerbin", ruolo: "C", squadra: "Bologna", qAcq: 30, teamId: "godo-glimt" },
+  { calciatore: "Cambiaghi", ruolo: "A", squadra: "Bologna", qAcq: 37, teamId: "godo-glimt" },
+  { calciatore: "Giovane", ruolo: "A", squadra: "Verona", qAcq: 20, teamId: "godo-glimt" },
+  { calciatore: "Mosquera", ruolo: "A", squadra: "Verona", qAcq: 1, teamId: "godo-glimt" },
+  { calciatore: "Ngonge", ruolo: "A", squadra: "Torino", qAcq: 35, teamId: "godo-glimt" },
+  { calciatore: "Scamacca", ruolo: "A", squadra: "Atalanta", qAcq: 18, teamId: "godo-glimt" }
+];
+
+export const ossobucoFCecche: Calciatore[] = [
+  { calciatore: "Pessina Mas.", ruolo: "P", squadra: "Bologna", qAcq: 1, teamId: "ossobuco-fc" },
+  { calciatore: "Ravaglia F.", ruolo: "P", squadra: "Bologna", qAcq: 6, teamId: "ossobuco-fc" },
+  { calciatore: "Skorupski", ruolo: "P", squadra: "Bologna", qAcq: 88, teamId: "ossobuco-fc" },
+  { calciatore: "Acerbi", ruolo: "D", squadra: "Inter", qAcq: 15, teamId: "ossobuco-fc" },
+  { calciatore: "Coulibaly W.", ruolo: "D", squadra: "Sassuolo", qAcq: 2, teamId: "ossobuco-fc" },
+  { calciatore: "Kamara H.", ruolo: "D", squadra: "Udinese", qAcq: 10, teamId: "ossobuco-fc" },
+  { calciatore: "Kelly L.", ruolo: "D", squadra: "Juventus", qAcq: 16, teamId: "ossobuco-fc" },
+  { calciatore: "Mina", ruolo: "D", squadra: "Cagliari", qAcq: 20, teamId: "ossobuco-fc" },
+  { calciatore: "Nelsson", ruolo: "D", squadra: "Verona", qAcq: 8, teamId: "ossobuco-fc" },
+  { calciatore: "Obert", ruolo: "D", squadra: "Cagliari", qAcq: 7, teamId: "ossobuco-fc" },
+  { calciatore: "Rrahmani", ruolo: "D", squadra: "Napoli", qAcq: 25, teamId: "ossobuco-fc" },
+  { calciatore: "Asllani", ruolo: "C", squadra: "Torino", qAcq: 33, teamId: "ossobuco-fc" },
+  { calciatore: "Coulibaly L.", ruolo: "C", squadra: "Lecce", qAcq: 4, teamId: "ossobuco-fc" },
+  { calciatore: "Guendouzi", ruolo: "C", squadra: "Lazio", qAcq: 45, teamId: "ossobuco-fc" },
+  { calciatore: "Keita M.", ruolo: "C", squadra: "Roma", qAcq: 11, teamId: "ossobuco-fc" },
+  { calciatore: "Mandragora", ruolo: "C", squadra: "Fiorentina", qAcq: 21, teamId: "ossobuco-fc" },
+  { calciatore: "Mckennie", ruolo: "C", squadra: "Juventus", qAcq: 21, teamId: "ossobuco-fc" },
+  { calciatore: "Neres", ruolo: "C", squadra: "Napoli", qAcq: 30, teamId: "ossobuco-fc" },
+  { calciatore: "Orsolini", ruolo: "C", squadra: "Bologna", qAcq: 102, teamId: "ossobuco-fc" },
+  { calciatore: "Balentien", ruolo: "A", squadra: "Milan", qAcq: 1, teamId: "ossobuco-fc" },
+  { calciatore: "Buffon L.", ruolo: "A", squadra: "Pisa", qAcq: 1, teamId: "ossobuco-fc" },
+  { calciatore: "Ekhator", ruolo: "A", squadra: "Genoa", qAcq: 1, teamId: "ossobuco-fc" },
+  { calciatore: "Moumbagna", ruolo: "A", squadra: "Cremonese", qAcq: 2, teamId: "ossobuco-fc" },
+  { calciatore: "Okereke", ruolo: "A", squadra: "Cremonese", qAcq: 1, teamId: "ossobuco-fc" }
+];
+
+export const bronxOfSoccer: Calciatore[] = [
+  { calciatore: "Caprile", ruolo: "P", squadra: "Cagliari", qAcq: 14, teamId: "bronx-of-soccer" },
+  { calciatore: "Ciocci", ruolo: "P", squadra: "Cagliari", qAcq: 1, teamId: "bronx-of-soccer" },
+  { calciatore: "Radunovic", ruolo: "P", squadra: "Cagliari", qAcq: 1, teamId: "bronx-of-soccer" },
+  { calciatore: "Beukema", ruolo: "D", squadra: "Napoli", qAcq: 14, teamId: "bronx-of-soccer" },
+  { calciatore: "Buongiorno", ruolo: "D", squadra: "Napoli", qAcq: 31, teamId: "bronx-of-soccer" },
+  { calciatore: "Floriani Mussolini", ruolo: "D", squadra: "Cremonese", qAcq: 6, teamId: "bronx-of-soccer" },
+  { calciatore: "Gatti", ruolo: "D", squadra: "Juventus", qAcq: 15, teamId: "bronx-of-soccer" },
+  { calciatore: "Juan Jesus", ruolo: "D", squadra: "Napoli", qAcq: 2, teamId: "bronx-of-soccer" },
+  { calciatore: "Scalvini", ruolo: "D", squadra: "Atalanta", qAcq: 16, teamId: "bronx-of-soccer" },
+  { calciatore: "Walukiewicz", ruolo: "D", squadra: "Sassuolo", qAcq: 1, teamId: "bronx-of-soccer" },
+  { calciatore: "Zortea", ruolo: "D", squadra: "Bologna", qAcq: 26, teamId: "bronx-of-soccer" },
+  { calciatore: "Baturina", ruolo: "C", squadra: "Como", qAcq: 3, teamId: "bronx-of-soccer" },
+  { calciatore: "Bernabé", ruolo: "C", squadra: "Roma", qAcq: 22, teamId: "bronx-of-soccer" },
+  { calciatore: "Cristante", ruolo: "C", squadra: "Roma", qAcq: 20, teamId: "bronx-of-soccer" },
+  { calciatore: "Elmas", ruolo: "C", squadra: "Napoli", qAcq: 12, teamId: "bronx-of-soccer" },
+  { calciatore: "Ferguson", ruolo: "C", squadra: "Bologna", qAcq: 26, teamId: "bronx-of-soccer" },
+  { calciatore: "Fofana Y.", ruolo: "C", squadra: "Milan", qAcq: 16, teamId: "bronx-of-soccer" },
+  { calciatore: "Locatelli", ruolo: "C", squadra: "Juventus", qAcq: 33, teamId: "bronx-of-soccer" },
+  { calciatore: "Stanciu", ruolo: "C", squadra: "Genoa", qAcq: 20, teamId: "bronx-of-soccer" },
+  { calciatore: "Cutrone", ruolo: "A", squadra: "Como", qAcq: 13, teamId: "bronx-of-soccer" },
+  { calciatore: "Dallinga", ruolo: "A", squadra: "Bologna", qAcq: 1, teamId: "bronx-of-soccer" },
+  { calciatore: "David", ruolo: "A", squadra: "Juventus", qAcq: 175, teamId: "bronx-of-soccer" },
+  { calciatore: "Dzeko", ruolo: "A", squadra: "Fiorentina", qAcq: 7, teamId: "bronx-of-soccer" },
+  { calciatore: "Immobile", ruolo: "A", squadra: "Bologna", qAcq: 23, teamId: "bronx-of-soccer" }
+];
+
+//* Giocatore della squadra leclerkusen */
+export const leclerkusen: Calciatore[] = [
+  { calciatore: "Di Gennaro", ruolo: "P", squadra: "Inter", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Martinez Jo.", ruolo: "P", squadra: "Inter", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Sommer", ruolo: "P", squadra: "Inter", qAcq: 31, teamId: "Leclerkusen" },
+  { calciatore: "Bonfanti", ruolo: "D", squadra: "Pisa", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Cabal", ruolo: "D", squadra: "Juventus", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Hysaj", ruolo: "D", squadra: "Lazio", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Luperto", ruolo: "D", squadra: "Cagliari", qAcq: 17, teamId: "Leclerkusen" },
+  { calciatore: "Norton-Cuffy", ruolo: "D", squadra: "Genoa", qAcq: 17, teamId: "Leclerkusen" },
+  { calciatore: "Pavlovic", ruolo: "D", squadra: "Milan", qAcq: 21, teamId: "Leclerkusen" },
+  { calciatore: "Posch", ruolo: "D", squadra: "Como", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Vasquez", ruolo: "D", squadra: "Genoa", qAcq: 20, teamId: "Leclerkusen" },
+  { calciatore: "Aebischer", ruolo: "C", squadra: "Pisa", qAcq: 10, teamId: "Leclerkusen" },
+  { calciatore: "Ekkelenkamp", ruolo: "C", squadra: "Udinese", qAcq: 13, teamId: "Leclerkusen" },
+  { calciatore: "Freuler", ruolo: "C", squadra: "Bologna", qAcq: 27, teamId: "Leclerkusen" },
+  { calciatore: "Karlstrom", ruolo: "C", squadra: "Udinese", qAcq: 11, teamId: "Leclerkusen" },
+  { calciatore: "Kastanos", ruolo: "C", squadra: "Verona", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Koné I.", ruolo: "C", squadra: "Sassuolo", qAcq: 4, teamId: "Leclerkusen" },
+  { calciatore: "Oristanio", ruolo: "C", squadra: "Roma", qAcq: 30, teamId: "Leclerkusen" },
+  { calciatore: "Sergi Roberto", ruolo: "C", squadra: "Como", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Kuhn", ruolo: "A", squadra: "Como", qAcq: 31, teamId: "Leclerkusen" },
+  { calciatore: "Luvumbo", ruolo: "A", squadra: "Cagliari", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Martinez L.", ruolo: "A", squadra: "Inter", qAcq: 240, teamId: "Leclerkusen" },
+  { calciatore: "Meister", ruolo: "A", squadra: "Pisa", qAcq: 1, teamId: "Leclerkusen" },
+  { calciatore: "Nzola", ruolo: "A", squadra: "Pisa", qAcq: 15, teamId: "Leclerkusen" }
+];
+
+//* Giocatore della squadra udinegre */
+export const udinegre: Calciatore[] = [
+  { calciatore: "Falcone", ruolo: "P", squadra: "Lecce", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Fruchtl", ruolo: "P", squadra: "Lecce", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Samooja", ruolo: "P", squadra: "Lecce", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Bastoni", ruolo: "D", squadra: "Inter", qAcq: 41, teamId: "Udinegre" },
+  { calciatore: "Celik", ruolo: "D", squadra: "Roma", qAcq: 6, teamId: "Udinegre" },
+  { calciatore: "Di Lorenzo", ruolo: "D", squadra: "Napoli", qAcq: 40, teamId: "Udinegre" },
+  { calciatore: "Gosens", ruolo: "D", squadra: "Fiorentina", qAcq: 41, teamId: "Udinegre" },
+  { calciatore: "Hermoso", ruolo: "D", squadra: "Roma", qAcq: 19, teamId: "Udinegre" },
+  { calciatore: "Lamptey", ruolo: "D", squadra: "Fiorentina", qAcq: 2, teamId: "Udinegre" },
+  { calciatore: "Olivera", ruolo: "D", squadra: "Napoli", qAcq: 21, teamId: "Udinegre" },
+  { calciatore: "Spinazzola", ruolo: "D", squadra: "Napoli", qAcq: 18, teamId: "Udinegre" },
+  { calciatore: "Barella", ruolo: "C", squadra: "Inter", qAcq: 45, teamId: "Udinegre" },
+  { calciatore: "Berisha M.", ruolo: "C", squadra: "Lecce", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Gilmour", ruolo: "C", squadra: "Napoli", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Grassi", ruolo: "C", squadra: "Cremonese", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Luis Henrique", ruolo: "C", squadra: "Como", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "McTominay", ruolo: "C", squadra: "Napoli", qAcq: 154, teamId: "Udinegre" },
+  { calciatore: "Messias", ruolo: "C", squadra: "Genoa", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Thuram K.", ruolo: "C", squadra: "Juventus", qAcq: 67, teamId: "Udinegre" },
+  { calciatore: "Cancellieri", ruolo: "A", squadra: "Lazio", qAcq: 23, teamId: "Udinegre" },
+  { calciatore: "Esposito F.P.", ruolo: "A", squadra: "Inter", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Johnsen", ruolo: "A", squadra: "Cremonese", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Njie", ruolo: "A", squadra: "Torino", qAcq: 1, teamId: "Udinegre" },
+  { calciatore: "Zapata D.", ruolo: "A", squadra: "Torino", qAcq: 16, teamId: "Udinegre" }
+];
+
+//* Giocatore della squadra cacio-e-pepe-fc */
+export const cacioEPepeFC: Calciatore[] = [
+  { calciatore: "De Gea", ruolo: "P", squadra: "Fiorentina", qAcq: 37, teamId: "cacio-e-pepe" },
+  { calciatore: "Lezzerini", ruolo: "P", squadra: "Fiorentina", qAcq: 1, teamId: "cacio-e-pepe" },
+  { calciatore: "Martinelli T.", ruolo: "P", squadra: "Fiorentina", qAcq: 1, teamId: "cacio-e-pepe" },
+  { calciatore: "Bella-Kotchap", ruolo: "D", squadra: "Verona", qAcq: 1, teamId: "cacio-e-pepe" },
+  { calciatore: "Bellanova", ruolo: "D", squadra: "Atalanta", qAcq: 25, teamId: "cacio-e-pepe" },
+  { calciatore: "Gaspar K.", ruolo: "D", squadra: "Lazio", qAcq: 1, teamId: "cacio-e-pepe" },
+  { calciatore: "Marusic", ruolo: "D", squadra: "Lazio", qAcq: 15, teamId: "cacio-e-pepe" },
+  { calciatore: "Muharemovic", ruolo: "D", squadra: "Sassuolo", qAcq: 4, teamId: "cacio-e-pepe" },
+  { calciatore: "N'dicka", ruolo: "D", squadra: "Roma", qAcq: 15, teamId: "cacio-e-pepe" },
+  { calciatore: "Pongracic", ruolo: "D", squadra: "Fiorentina", qAcq: 12, teamId: "cacio-e-pepe" },
+  { calciatore: "Zappa", ruolo: "D", squadra: "Cagliari", qAcq: 11, teamId: "cacio-e-pepe" },
+  { calciatore: "Fagioli", ruolo: "C", squadra: "Fiorentina", qAcq: 26, teamId: "cacio-e-pepe" },
+  { calciatore: "Gaetano", ruolo: "C", squadra: "Cagliari", qAcq: 8, teamId: "cacio-e-pepe" },
+  { calciatore: "Matic", ruolo: "C", squadra: "Sassuolo", qAcq: 7, teamId: "cacio-e-pepe" },
+  { calciatore: "Odgaard", ruolo: "C", squadra: "Bologna", qAcq: 27, teamId: "cacio-e-pepe" },
+  { calciatore: "Pobega", ruolo: "C", squadra: "Bologna", qAcq: 11, teamId: "cacio-e-pepe" },
+  { calciatore: "Ricci S.", ruolo: "C", squadra: "Milan", qAcq: 28, teamId: "cacio-e-pepe" },
+  { calciatore: "Samardzic", ruolo: "C", squadra: "Atalanta", qAcq: 14, teamId: "cacio-e-pepe" },
+  { calciatore: "Zalewski", ruolo: "C", squadra: "Atalanta", qAcq: 42, teamId: "cacio-e-pepe" },
+  { calciatore: "Kean", ruolo: "A", squadra: "Fiorentina", qAcq: 153, teamId: "cacio-e-pepe" },
+  { calciatore: "Morata", ruolo: "A", squadra: "Como", qAcq: 39, teamId: "cacio-e-pepe" },
+  { calciatore: "N'dri", ruolo: "A", squadra: "Lecce", qAcq: 1, teamId: "cacio-e-pepe" },
+  { calciatore: "Orban G.", ruolo: "A", squadra: "Verona", qAcq: 19, teamId: "cacio-e-pepe" },
+  { calciatore: "Vitinha O.", ruolo: "A", squadra: "Genoa", qAcq: 3, teamId: "cacio-e-pepe" }
+];
+
+//* Giocatore della squadra de-paul-fiction */
+export const dePaulFiction: Calciatore[] = [
+  { calciatore: "Furlanetto", ruolo: "P", squadra: "Lazio", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Mandas", ruolo: "P", squadra: "Lazio", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Provedel", ruolo: "P", squadra: "Lazio", qAcq: 22, teamId: "de-paul-fiction" },
+  { calciatore: "Caracciolo A.", ruolo: "D", squadra: "Pisa", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Carlos Augusto", ruolo: "D", squadra: "Inter", qAcq: 28, teamId: "de-paul-fiction" },
+  { calciatore: "Diego Carlos", ruolo: "D", squadra: "Como", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Kalulu", ruolo: "D", squadra: "Juventus", qAcq: 22, teamId: "de-paul-fiction" },
+  { calciatore: "Kempf", ruolo: "D", squadra: "Como", qAcq: 7, teamId: "de-paul-fiction" },
+  { calciatore: "Mancini", ruolo: "D", squadra: "Roma", qAcq: 22, teamId: "de-paul-fiction" },
+  { calciatore: "Maripan", ruolo: "D", squadra: "Torino", qAcq: 10, teamId: "de-paul-fiction" },
+  { calciatore: "Masina", ruolo: "D", squadra: "Torino", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Bondo", ruolo: "C", squadra: "Cremonese", qAcq: 4, teamId: "de-paul-fiction" },
+  { calciatore: "Calhanoglu", ruolo: "C", squadra: "Inter", qAcq: 73, teamId: "de-paul-fiction" },
+  { calciatore: "Dele-Bashiru", ruolo: "C", squadra: "Lazio", qAcq: 20, teamId: "de-paul-fiction" },
+  { calciatore: "Ederson D.S.", ruolo: "C", squadra: "Atalanta", qAcq: 45, teamId: "de-paul-fiction" },
+  { calciatore: "Malinovskyi", ruolo: "C", squadra: "Genoa", qAcq: 15, teamId: "de-paul-fiction" },
+  { calciatore: "Musah", ruolo: "C", squadra: "Milan", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Sottil", ruolo: "C", squadra: "Lecce", qAcq: 13, teamId: "de-paul-fiction" },
+  { calciatore: "Vecino", ruolo: "C", squadra: "Lazio", qAcq: 12, teamId: "de-paul-fiction" },
+  { calciatore: "Castellanos", ruolo: "A", squadra: "Lazio", qAcq: 128, teamId: "de-paul-fiction" },
+  { calciatore: "Cheddira", ruolo: "A", squadra: "Genoa", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Dybala", ruolo: "A", squadra: "Roma", qAcq: 54, teamId: "de-paul-fiction" },
+  { calciatore: "Noslin", ruolo: "A", squadra: "Lazio", qAcq: 1, teamId: "de-paul-fiction" },
+  { calciatore: "Stulic", ruolo: "A", squadra: "Lecce", qAcq: 14, teamId: "de-paul-fiction" }
+];
+
+//* Giocatore della squadra alfa-romeo-giulia */
+export const alfaRomeoGiulia: Calciatore[] = [
+  { calciatore: "Gollini", ruolo: "P", squadra: "Roma", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "Svilar", ruolo: "P", squadra: "Roma", qAcq: 47, teamId: "alfa-romeo" },
+  { calciatore: "Zelezny", ruolo: "P", squadra: "Roma", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "Angori", ruolo: "D", squadra: "Pisa", qAcq: 10, teamId: "alfa-romeo" },
+  { calciatore: "Athekame", ruolo: "D", squadra: "Milan", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "De Winter", ruolo: "D", squadra: "Milan", qAcq: 3, teamId: "alfa-romeo" },
+  { calciatore: "Miranda J.", ruolo: "D", squadra: "Bologna", qAcq: 8, teamId: "alfa-romeo" },
+  { calciatore: "Rensch", ruolo: "D", squadra: "Roma", qAcq: 3, teamId: "alfa-romeo" },
+  { calciatore: "Siebert", ruolo: "D", squadra: "Lecce", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "Valeri", ruolo: "D", squadra: "Parma", qAcq: 18, teamId: "alfa-romeo" },
+  { calciatore: "Veiga D.", ruolo: "D", squadra: "Lecce", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "Anjorin", ruolo: "C", squadra: "Torino", qAcq: 10, teamId: "alfa-romeo" },
+  { calciatore: "Baldanzi", ruolo: "C", squadra: "Roma", qAcq: 2, teamId: "alfa-romeo" },
+  { calciatore: "Conceicao", ruolo: "C", squadra: "Juventus", qAcq: 40, teamId: "alfa-romeo" },
+  { calciatore: "De Bruyne", ruolo: "C", squadra: "Napoli", qAcq: 78, teamId: "alfa-romeo" },
+  { calciatore: "Frattesi", ruolo: "C", squadra: "Inter", qAcq: 19, teamId: "alfa-romeo" },
+  { calciatore: "Gronbaek", ruolo: "C", squadra: "Genoa", qAcq: 3, teamId: "alfa-romeo" },
+  { calciatore: "Sala A.", ruolo: "C", squadra: "Lecce", qAcq: 2, teamId: "alfa-romeo" },
+  { calciatore: "Tramoni M.", ruolo: "C", squadra: "Pisa", qAcq: 23, teamId: "alfa-romeo" },
+  { calciatore: "Banda", ruolo: "A", squadra: "Lecce", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "Bayo V.", ruolo: "A", squadra: "Udinese", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "Buksa", ruolo: "A", squadra: "Udinese", qAcq: 1, teamId: "alfa-romeo" },
+  { calciatore: "Dia", ruolo: "A", squadra: "Lazio", qAcq: 46, teamId: "alfa-romeo" },
+  { calciatore: "Thuram M.", ruolo: "A", squadra: "Inter", qAcq: 178, teamId: "alfa-romeo" }
 ];
