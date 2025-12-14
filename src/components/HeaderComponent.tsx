@@ -10,12 +10,20 @@ function Header() {
           className="w-[50px] md:w-20 h-auto transition-transform hover:scale-105"
         />
       </Link>
-      <Link
-        to={"./meme"}
-        className="text-amber-100 hover:text-white transition-colors duration-200 bg-white/10 backdrop-blur-sm md:px-4 md:py-2 px-1 rounded-lg hover:bg-white/20"
-      >
-        <h2 className="text-base md:text-xl font-bold">Meme</h2>
-      </Link>
+      <div className="flex justify-between gap-3">
+        <Link
+          to={"./meme"}
+          className="text-black hover:text-blue-950 transition-all duration-500 bg-white/10 backdrop-blur-sm md:px-4 md:py-2 px-1 rounded-lg hover:bg-white/20"
+        >
+          <h2 className="text-base md:text-xl font-bold">Meme</h2>
+        </Link>
+        {/* <Link to={"./votazioni"} className="text-black hover:text-blue-950 transition-all duration-500 bg-white/10 backdrop-blur-sm md:px-4 md:py-2 px-1 rounded-lg hover:bg-white/20">
+          <h2 className="text-base md:text-xl font-bold">Votazioni</h2>
+        </Link> */}
+        <Link to={"./trofei"} className="text-black hover:text-blue-950 transition-all duration-500 bg-white/10 backdrop-blur-sm md:px-4 md:py-2 px-1 rounded-lg hover:bg-white/20">
+          <h2 className="text-base md:text-xl font-bold">Trofei</h2>
+        </Link>
+      </div>
     </header>
   )
 }
