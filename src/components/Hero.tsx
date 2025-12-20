@@ -16,7 +16,7 @@ function Hero() {
         <section
             className="relative w-full min-h-[250px] md:min-h-[500px] lg:min-h-[750px] flex items-end"
             style={{
-                backgroundImage: "url('../Heroimage2.png')",
+                backgroundImage: "url('../HeroImage.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}

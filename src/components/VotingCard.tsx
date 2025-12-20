@@ -57,7 +57,7 @@ function VotingCard({ category, onVote }: VotingCardProps) {
               {/* Progress bar */}
               {hasVoted && (
                 <div
-                  className="absolute top-0 left-0 h-full bg-gradient-to-r from-amber-500/20 to-transparent transition-all duration-1000"
+                  className="absolute top-0 left-0 h-full bg-linear-to-r from-amber-500/20 to-transparent transition-all duration-1000"
                   style={{ width: `${percentage}%` }}
                 />
               )}
