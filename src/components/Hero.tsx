@@ -9,7 +9,7 @@ function Hero() {
         setShowOverlay(true);
         setTimeout(() => {
             setShowOverlay(false);
-        }, 10000);
+        }, 7000);
     };
 
     return (
