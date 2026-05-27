@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 function Header() {
   return (
-    <header className="flex justify-between items-center text-white bg-[#22222300] px-5 py-2 fixed top-0 left-0 w-full z-10">
+    <header className="flex justify-between items-center text-white bg-[#c3c3c699] px-5 py-2 fixed top-0 left-0 w-full z-10">
       <Link to={"./"} className="cursor-pointer bg-transparent border-none p-0">
         <img
           src="../logoLega.png"

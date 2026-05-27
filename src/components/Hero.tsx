@@ -9,14 +9,14 @@ function Hero() {
         setShowOverlay(true);
         setTimeout(() => {
             setShowOverlay(false);
-        }, 2000);
+        }, 10000);
     };
 
     return (
         <section
             className="relative w-full min-h-[250px] md:min-h-[500px] lg:min-h-[750px] flex items-end"
             style={{
-                backgroundImage: "url('../HeroImage.png')",
+                backgroundImage: "url('../HeroImage.jpeg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
             }}

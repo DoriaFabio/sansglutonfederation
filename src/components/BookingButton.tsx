@@ -33,7 +33,7 @@ function BookingButton({ onClick }: BookingButtonProps) {
             {/* pulsazione punto energia */}
             <span className="inline-block w-2 h-2 md:w-3 md:h-3 rounded-full bg-white/90 mr-2 animate-pulse" />
 
-            Prenota ora
+            Visualizza la classifica finale
 
             {/* freccia */}
             <span className="ml-2 inline-block transition-transform duration-300 group-hover:translate-x-1">

@@ -20,15 +20,25 @@ export const trophies: Trophy[] = [
     description: "Squadra campione della stagione",
     icon: "👑",
     category: "gold",
-    unlocked: false
+    winner: {
+      teamName: "Brunori Sassuolo",
+      ownerName: "Leonardo Miresse",
+      value: "68 punti"
+    },
+    unlocked: true
   },
   {
     id: "campione-coppa",
     title: "Re della Coppa",
     description: "Squadra vincitrice della Coppa",
     icon: "👑",
+    winner: {
+      teamName: "Barchillona",
+      ownerName: "Giuseppe Capocotta",
+      value: "Vittoria in finale contro De Paul Fiction"
+    },
     category: "gold",
-    unlocked: false
+    unlocked: true
   },
   
   // Trofei d'Argento
@@ -38,7 +48,12 @@ export const trophies: Trophy[] = [
     description: "Squadra con più gol segnati",
     icon: "⚽",
     category: "silver",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Brunori Sassuolo",
+      ownerName: "Leonardo Miresse",
+      value: "94 gol segnati"
+    }
   },
   {
     id: "miglior-difesa",
@@ -46,7 +61,12 @@ export const trophies: Trophy[] = [
     description: "Squadra con meno gol subiti",
     icon: "🛡️",
     category: "silver",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Sambuca Juniors",
+      ownerName: "Jacopo Vannucchi",
+      value: "52 gol subiti"
+    }
   },
 
   // Trofei di Bronzo
@@ -56,7 +76,12 @@ export const trophies: Trophy[] = [
     description: "Più vittorie consecutive",
     icon: "🔥",
     category: "bronze",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Brunori Sassuolo",
+      ownerName: "Leonardo Miresse",
+      value: "14 vittorie consecutive"
+    }
   },
 
   {
@@ -65,7 +90,12 @@ export const trophies: Trophy[] = [
     description: "Vittoria con più scarto",
     icon: "💥",
     category: "bronze",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Brunori Sassuolo, Barchillona e Club D. Regatas Mugiwara",
+      ownerName: "Leonardo Miresse, Giuseppe Capocotta e Duccio Gabbiai",
+      value: "Vittoria 7-1 rispettivamente contro Lecrerkusen, One Pisa e Barchillona"
+    }
   },
 
   // Trofei Speciali (divertenti/imbarazzanti)
@@ -75,7 +105,12 @@ export const trophies: Trophy[] = [
     description: "Acquisto più costoso e deludente",
     icon: "🗑️",
     category: "special",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Sambuca Juniors",
+      ownerName: "Jacopo Vannucchi",
+      value: "Acquisto di E.Ferguson a 171 crediti, che ha segnato solo 3 gol e 2 assist in tutta la stagione"
+    }
   },
 
   {
@@ -84,7 +119,12 @@ export const trophies: Trophy[] = [
     description: "Squadra con più gol subiti",
     icon: "📉",
     category: "special",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Godo Glimt",
+      ownerName: "Matteo Speciale",
+      value: "80 gol subiti"
+    }
   },
 
   {
@@ -93,7 +133,12 @@ export const trophies: Trophy[] = [
     description: "Squadra con meno gol segnati",
     icon: "🚫",
     category: "special",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Krusty Krak Klub",
+      ownerName: "Lorenzo Tucci",
+      value: "19 gol segnati"
+    }
   },
 
   {
@@ -102,7 +147,12 @@ export const trophies: Trophy[] = [
     description: "Maggior numero di rigori sbagliati",
     icon: "⚽❌",
     category: "special",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "De Paul Fiction",
+      ownerName: "Riccardo Pecorini",
+      value: "3 rigori sbagliati da Dybala, Malen e Calhanoglu"
+    }
   },
 
   {
@@ -111,6 +161,11 @@ export const trophies: Trophy[] = [
     description: "Più espulsioni in stagione",
     icon: "🟥",
     category: "special",
-    unlocked: false
+    unlocked: true,
+    winner: {
+      teamName: "Chiattillos FC",
+      ownerName: "Fabio Doria",
+      value: "6 espulsioni di giocatori chiave durante la stagione: Toure, Wesley (2), Kabasele, Ilkhan e Jesus Rodriguez"
+    }
   }
 ];
