@@ -40,6 +40,19 @@ export const trophies: Trophy[] = [
     category: "gold",
     unlocked: true
   },
+  {
+    id: "finale-coppa perdente",
+    title: "Finalista Sfortunato",
+    description: "Squadra finalista della Coppa",
+    icon: "😢",
+    winner: {
+      teamName: "De Paul Fiction",
+      ownerName: "Riccardo Pecorini",
+      value: "Sconfitta in finale contro Barchillona"
+    },
+    category: "gold",
+    unlocked: true
+  },
   
   // Trofei d'Argento
   {
@@ -66,6 +79,19 @@ export const trophies: Trophy[] = [
       teamName: "Sambuca Juniors",
       ownerName: "Jacopo Vannucchi",
       value: "52 gol subiti"
+    }
+  },
+  {
+    id: "re-mercato",
+    title: "Re del Mercato",
+    description: "Miglior gestione del mercato",
+    icon: "💼", 
+    category: "silver",
+    unlocked: false,
+    winner: {
+      teamName: "Barchillona",
+      ownerName: "Giuseppe Capocotta",
+      value: "Acquisti chiave come Vlahovic, Kvaratskhelia e Malen"
     }
   },
 
@@ -167,5 +193,5 @@ export const trophies: Trophy[] = [
       ownerName: "Fabio Doria",
       value: "6 espulsioni di giocatori chiave durante la stagione: Toure, Wesley (2), Kabasele, Ilkhan e Jesus Rodriguez"
     }
-  }
+  },
 ];
